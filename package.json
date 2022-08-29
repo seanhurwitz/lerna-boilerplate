@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^5.4.3"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev-common": "cd packages/common && npm run dev-common",
+    "dev-backend": "cd packages/backend && npm run dev-backend",
+    "dev-frontend": "cd packages/frontend && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
